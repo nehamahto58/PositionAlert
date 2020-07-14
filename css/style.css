@@ -108,10 +108,13 @@ color: white;
   }
   @media (max-width: 566px){
     .intro-text{
-        font-size: 40px;
+        margin-top: 80px;
+        font-size: 30px;
+        line-height: 50px;
     }
     .intro-subtitle{
         font-size: 18px;
+        line-height: 35px;
     }
     .cta-button{
         margin-top: 20px;
