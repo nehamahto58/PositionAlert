@@ -115,6 +115,7 @@ color: white;
     .intro-subtitle{
         font-size: 18px;
         line-height: 35px;
+        width: 80%;
     }
     .cta-button{
         margin-top: 20px;
