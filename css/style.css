@@ -1,0 +1,119 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*---------NAVIGATION-------------*/
+.navbar-nav{
+    font-style: normal;
+    font-weight: 900;
+}
+.navi ul{
+    margin-right: 20px;
+}
+.navi ul a{
+    color: black !important;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 0.045em;
+}
+.navi ul a:hover{
+    color:#2B5E48 !important;
+    font-size: 16px;
+}
+.navbar-nav .active{
+    color: #2B5E48 !important;
+    font-weight: 800;
+}
+.demobtn{
+    font-size: 24px;
+    line-height: 20px;
+    color: white !important;
+    padding: 14px 20px !important;
+    background-color: #2B5E48!important;
+    outline: none !important;
+    border: 0;
+    border-radius: 2px;
+    text-decoration: none;
+}
+/*---------HERO-------------*/
+.masthead{
+    background-image: url(../images/hero.png);
+    width: 100%;
+    display: block;
+    height: 100vh;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 500px;
+}
+.intro-dist{
+    font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 24px;
+color: white;
+}
+.intro-text {
+    font-style: normal;
+    font-weight: normal;
+    line-height: 86px;
+    font-size: 60px;
+    
+    margin: auto;
+  }
+  .intro-subtitle{
+    width: 70%;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    color: white;
+    line-height: 50px;
+    margin: auto;
+    
+  }
+  .avail img{
+      margin-left: 10px;
+      width: 41px;
+      height: 40px;
+  }
+
+  .inp{
+    font-size: 24px;
+    line-height: 20px;
+    color: #2B5E48 !important;
+    padding: 13px 30px !important;
+    background-color: white !important;
+    outline: none !important;
+    border: 0;
+    border-radius: 2px;
+    text-decoration: none;
+    width: 40%;
+    
+  }
+  .submitbtn{
+    font-size: 24px;
+    line-height: 20px;
+    color: white !important;
+    padding: 14px 20px !important;
+    background-color: transparent !important;
+    outline: none !important;
+    border: 3px solid white;
+    border-radius: 2px;
+    text-decoration: none;
+  }
+  @media (max-width: 566px){
+    .intro-text{
+        font-size: 40px;
+    }
+    .intro-subtitle{
+        font-size: 18px;
+    }
+    .cta-button{
+        margin-top: 20px;
+    }
+  }
