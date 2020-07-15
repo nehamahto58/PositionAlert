@@ -231,6 +231,13 @@
     margin-right: 60px;
     margin-left: 60px; 
 }
+@media (max-width: 768px){
+    .image-group img{
+        height: 50px;
+        width: 50px;
+        margin: 0px 10px; 
+    }
+}
 /*-----------------Notify-------*/
 .notifyy{
     background-image: url('/assets/images/Rectangle\ 23.png');
@@ -252,9 +259,9 @@
     text-decoration: none;
 }
 #inptext{
-    padding: 13px 30px !important;
+    padding: 14px 30px !important;
     background-color: #2B5E48 !important;
-    border: 0;
+    border: 2px solid #2B5E48;
     border-radius: 2px;
     width: 40%; 
   }
