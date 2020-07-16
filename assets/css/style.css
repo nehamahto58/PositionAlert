@@ -71,6 +71,7 @@
     font-size: 60px;
     margin: auto;
     margin-top: 35px;
+    margin-bottom: 14px;
   }
   .intro-subtitle{
     width: 70%;
@@ -122,29 +123,58 @@
     text-decoration: none;
   }
 
-  @media (max-width: 968px){
+  @media (max-width: 568px){
     .intro-text{
-        margin-top: 60px;
+        margin-top: 30px;
         font-size: 30px;
         line-height: 50px;
     }
     .intro-subtitle{
         font-size: 18px;
         line-height: 35px;
-        width: 80%;
+        width: 100%;
+        margin-top: 12px;
     }
     .avail{
-        margin-top: 20px;
-        margin-bottom: 30px;
+        margin-top: 10px;
+        margin-bottom: 10px;
     }
     .getnotif{
         font-size: 24px;
-        margin-bottom: 20px;
+        margin-bottom: 10px;
     }
     .inp{
         width: 90%;
         height: 40%;
-        margin-bottom: 20px;
+        margin-bottom: 10px;
+    }
+    .submitbtn{
+        padding: 18px 50px !important;
+    }
+  }
+  @media (min-width: 569px) and (max-width:1024px){
+    .intro-text{
+        margin-top: 40px;
+        font-size: 30px;
+        line-height: 50px;
+    }
+    .intro-subtitle{
+        font-size: 14px;
+        line-height: 35px;
+        width: 100%;
+    }
+    .avail{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .getnotif{
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .inp{
+        width: 90%;
+        height: 40%;
+        margin-bottom: 10px;
     }
     .submitbtn{
         padding: 18px 50px !important;
