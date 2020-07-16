@@ -10,8 +10,14 @@
     font-style: normal;
     font-weight: 900;
 }
+.navbar-brand a{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 20px;
+}
 .navi ul{
-    margin-right: 20px;
+    margin-right: 100px;
 }
 .navi ul a{
     color: black !important;
@@ -74,6 +80,9 @@
     line-height: 50px;
     margin: auto;
   }
+  .avail{
+      margin-top: 10px;
+  }
   .avail img{
       margin-left: 10px;
       width: 41px;
@@ -90,8 +99,8 @@
     border: 0;
     border-radius: 2px;
     text-decoration: none;
-    width: 40%;
-    
+    width: 50%;
+    margin-right: 20px;
   }
   .submitbtn{
     font-size: 24px;
@@ -104,7 +113,7 @@
     border-radius: 2px;
     text-decoration: none;
   }
-  @media (max-width: 768px){
+  @media (max-width: 968px){
     .intro-text{
         margin-top: 80px;
         font-size: 30px;
@@ -116,7 +125,7 @@
         width: 80%;
     }
     .inp{
-        width: 85%;
+        width: 65%;
         height: 40%;
         margin-bottom: 10px;
     }
@@ -136,11 +145,39 @@
         font-size: 24px;
     }
 }
+/*------demo--------*/
+.enjoy__play-icon {
+	position: absolute;
+	cursor: pointer;
+}
+.first-col {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	background-color: black;
+}
+@media (max-width: 968px){
+    .enjoy__play-icon{
+        height: 80px;
+        width: 80px;
+    }
+}
+@media (max-width: 568px){
+    .enjoy__play-icon{
+        height: 50px;
+        width: 50px;
+    }
+}
 /*-----------------Feature-------*/
-.info-container{
+ .info-container{
     width: 100%;
     margin: 0 auto;
     padding: 4rem 0;
+}
+#home-drift{
+    background-color: rgba(189, 183, 171, 0.33); 
+    opacity: 0.8;
 }
 .home-grid {
     display:flex;
@@ -149,37 +186,50 @@
     margin-bottom: 5rem;   
 }
 .home-grid__img{
-    flex-basis: 40%;   
+    flex-basis: 40%;  
 }
 .home-grid__img img{
     max-width: 100%;
     display: block;
-    height: auto;
+    height: 600px;
     margin: 0 auto;
 }
 .home-grid__text{
     flex-basis: 50%;
     align-self: center;
+    margin-left: 100px;
+}
+#right{
+    float: right;
+    text-align: right;
+    margin-right: 30px;
+}
+#right > .para{
+    text-align: right;
+    width: 100%;
 }
 .info__text--bigTitle {
-  font-size: 2.25rem;
-  line-height: 2.8125rem;
+  font-size: 36px;
+  font-weight: normal;
+  font-style: normal;
   line-height: 45px;
-  color: #333333;
+  color: #000;
   margin-bottom: 30px;
 } 
 .para{
     color: #000;
     font-style: normal;
     font-weight: 300;
-    font-size: 20px;
-    line-height: 16px;
+    font-size: 24px;
+    line-height: 36px;
+    width: 90%;
+    margin-bottom: 30px;
 }
 .grid-reverse{
   flex-flow: row-reverse;
 }
 .iconimage{
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 .learnmore{
     color: white !important;
@@ -189,6 +239,7 @@
     border: 0;
     border-radius: 2px;
     text-decoration: none;
+    font-size: 22px;
 }
 @media only screen and (max-width:900px) {
   .home-grid{
@@ -198,17 +249,23 @@
  .info__text--bigTitle {
     font-size: 36px;
     margin-bottom: 8px;
+    text-align: center;
  }
   .home-grid__img {
-      text-align: center;
       margin-bottom: 2rem; 
   }
+  .home-grid__text, #right, #right >.para{
+    text-align: center;
+    display: inline-block;
+    margin: 20px auto;
+  }
 .para{
-    font-size: 24px;
-    line-height: 20px;
-    width: 40%;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    width: 100% !important;
 }
-}
+} 
 /*-----------------steps-------*/
 .steps-title{
     margin-bottom: 30px;
@@ -217,6 +274,34 @@
 .steps-des > h1,h4,p{
     color: white;
 }
+.inputs1{
+    text-align: center;
+    width: 100%;
+}
+.buton1{
+    font-size: 24px;
+    line-height: 20px;
+    color: #2B5E48 !important;
+    padding: 18px 30px !important;
+    background-color: white !important;
+    outline: none !important;
+    border: 0;
+    border-radius: 2px;
+    text-decoration: none;
+    width: 40%;
+    
+  }
+  .buton2{
+    font-size: 24px;
+    line-height: 20px;
+    color: white !important;
+    padding: 14px 20px !important;
+    background-color: transparent !important;
+    outline: none !important;
+    border: 3px solid white;
+    border-radius: 2px;
+    text-decoration: none;
+  }
 @media (max-width: 768px){
     #sub-sec-1{
         text-align: center;
@@ -274,9 +359,6 @@
     border-radius: 2px;
   }
   @media (max-width: 768px){
-      .notify-title{
-          margin-top: 150px;
-      }
         #inptext{
         width: 80%;
         margin-bottom: 10px;
@@ -313,6 +395,10 @@
 }
 .footerul{
     list-style: none;
+    cursor: pointer;
+}
+.footerul:hover{
+    font-size: 25px;
 }
 .footer-end{
     margin-top: 50px;
