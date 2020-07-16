@@ -22,14 +22,14 @@
 .navi ul a{
     color: black !important;
     font-style: normal;
-    font-weight: 300;
+    font-weight: 500;
     font-size: 20px;
     line-height: 25px;
     letter-spacing: 0.045em;
 }
 .navi ul a:hover{
     color:#2B5E48 !important;
-    font-size: 16px;
+    font-size: 21px;
 }
 .navbar-nav .active{
     color: #2B5E48 !important;
@@ -70,6 +70,7 @@
     line-height: 86px;
     font-size: 60px;
     margin: auto;
+    margin-top: 35px;
   }
   .intro-subtitle{
     width: 70%;
@@ -82,6 +83,7 @@
   }
   .avail{
       margin-top: 10px;
+      margin-bottom: 20px;
   }
   .avail img{
       margin-left: 10px;
@@ -115,7 +117,7 @@
   }
   @media (max-width: 968px){
     .intro-text{
-        margin-top: 80px;
+        margin-top: 50px;
         font-size: 30px;
         line-height: 50px;
     }
@@ -123,6 +125,10 @@
         font-size: 18px;
         line-height: 35px;
         width: 80%;
+    }
+    .avail{
+        margin-top: 20px;
+        margin-bottom: 30px;
     }
     .inp{
         width: 65%;
@@ -177,7 +183,6 @@
 }
 #home-drift{
     background-color: rgba(189, 183, 171, 0.33); 
-    opacity: 0.8;
 }
 .home-grid {
     display:flex;
@@ -202,7 +207,7 @@
 #right{
     float: right;
     text-align: right;
-    margin-right: 30px;
+    padding: 0px 80px 0px 0px;
 }
 #right > .para{
     text-align: right;
@@ -258,6 +263,7 @@
     text-align: center;
     display: inline-block;
     margin: 20px auto;
+    padding: 0;
   }
 .para{
     font-size: 20px;
@@ -288,8 +294,6 @@
     border: 0;
     border-radius: 2px;
     text-decoration: none;
-    width: 40%;
-    
   }
   .buton2{
     font-size: 24px;
@@ -302,9 +306,12 @@
     border-radius: 2px;
     text-decoration: none;
   }
-@media (max-width: 768px){
+@media (max-width: 968px){
     #sub-sec-1{
         text-align: center;
+    }
+    .buton1{
+        margin-bottom: 10px;
     }
 }
 /*-----------------join-------*/
@@ -315,6 +322,7 @@
 .image-group img{
     margin-right: 60px;
     margin-left: 60px; 
+    cursor: pointer;
 }
 @media (max-width: 768px){
     .image-group img{
@@ -332,9 +340,12 @@
     background-repeat: no-repeat;
     background-size: cover;
     overflow-x: hidden;
+    margin: 0 auto;
 }
 .notify-title{
     font-weight: bold;
+    font-size: 32px;
+    margin-top: 180px;
 }
 #inptext, #viewbtn{
     font-size: 24px;
@@ -348,7 +359,6 @@
     background-color: #2B5E48 !important;
     border: 2px solid #2B5E48;
     border-radius: 2px;
-    width: 40%; 
   }
   
   #viewbtn{
@@ -358,11 +368,14 @@
     color: white !important;
     border-radius: 2px;
   }
-  @media (max-width: 768px){
+  @media (max-width: 968px){
+      .notify-title{
+          margin-top: 80px;
+      }
         #inptext{
-        width: 80%;
         margin-bottom: 10px;
       }
+      
   } 
 
 
