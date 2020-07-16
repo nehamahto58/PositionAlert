@@ -125,7 +125,7 @@
   }
   @media (max-width: 968px){
     .intro-text{
-        margin-top: 20px;
+        margin-top: 30px;
         font-size: 30px;
         line-height: 50px;
     }
@@ -133,17 +133,18 @@
         font-size: 18px;
         line-height: 35px;
         width: 80%;
+        margin-bottom: 20px;
     }
     .avail{
-        margin-top: 30px;
+        margin-top: 40px;
     }
     .getnotif{
         font-size: 24px;
     }
     .inp{
-        width: 90%;
+        width: 94%;
         height: 40%;
-        margin-bottom: 10px;
+        margin-bottom: 14px;
     }
   }
 /*---------TEXTS-------------*/
