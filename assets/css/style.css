@@ -82,17 +82,18 @@
     margin: auto;
   }
   .avail{
-      margin-top: 30px;
-      margin-bottom: 10px;
+      margin-top: 20px;
+      margin-bottom: 20px;
   }
   .avail img{
       margin-left: 10px;
       width: 41px;
       height: 40px;
+      margin-bottom: 20px;
   }
 .getnotif{
     color: white !important;
-    margin-bottom: 10px;
+    margin-bottom: 16px;
     font-style: normal;
     font-weight: 400;
 }
@@ -120,9 +121,7 @@
     border-radius: 2px;
     text-decoration: none;
   }
-  .inputs{
-      margin-bottom: 30px;
-  }
+
   @media (max-width: 968px){
     .intro-text{
         margin-top: 50px;
@@ -133,21 +132,18 @@
         font-size: 18px;
         line-height: 35px;
         width: 80%;
-        margin-bottom: 20px;
     }
     .avail{
-        margin-top: 40px;
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
     .getnotif{
         font-size: 24px;
     }
     .inp{
-        width: 100%;
+        width: 90%;
         height: 40%;
         margin-bottom: 14px;
-    }
-    .submitbtn{
-        margin-bottom: 25px;
     }
   }
 /*---------TEXTS-------------*/
