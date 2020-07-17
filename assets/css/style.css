@@ -94,42 +94,13 @@
   }
   @media screen and (max-width: 768px) {
     .intro-text{
-        font-size: 32px;
+        font-size: 36px;
         line-height: 46px;
         width: 100%;
-        margin-bottom: 10px;
-    }
-    .intro-subtitle{
-        font-size: 22px;
-        line-height: 30px;
-        width: 90%;
-    }
-    .avail{
-        margin-top: 12px;
-        margin-bottom: 10px;
-    }
-    .avail img{
-        width: 21px;
-      height: 20px;
-      margin-bottom: 5px;
-    }
-    .intro-dist{
-        font-size: 20px;
-    }
-    .inp{
-        width: 90%;
-        margin-bottom: 8px;
-    }
-  }
-  @media (min-width:769px) and (max-width: 1024px) {
-    .intro-text{
-        font-size: 32px;
-        line-height: 46px;
-        width: 90%;
         margin-bottom: 18px;
     }
     .intro-subtitle{
-        font-size: 20px;
+        font-size: 24px;
         line-height: 30px;
         width: 90%;
     }
@@ -141,6 +112,35 @@
         width: 21px;
       height: 20px;
       margin-bottom: 16px;
+    }
+    .intro-dist{
+        font-size: 20px;
+    }
+    .inp{
+        width: 90%;
+        margin-bottom: 10px;
+    }
+  }
+  @media (min-width:769px) and (max-width: 1024px) {
+    .intro-text{
+        font-size: 30px;
+        line-height: 46px;
+        width: 90%;
+        margin-bottom: 15px;
+    }
+    .intro-subtitle{
+        font-size: 20px;
+        line-height: 30px;
+        width: 80%;
+    }
+    .avail{
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .avail img{
+        width: 21px;
+      height: 20px;
+      margin-bottom: 15px;
     }
     .intro-dist{
         font-size: 20px;
