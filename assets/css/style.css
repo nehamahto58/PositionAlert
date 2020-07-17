@@ -126,21 +126,21 @@
         font-size: 32px;
         line-height: 46px;
         width: 90%;
-        margin-bottom: 15px;
+        margin-bottom: 18px;
     }
     .intro-subtitle{
-        font-size: 22px;
+        font-size: 20px;
         line-height: 30px;
-        width: 60%;
+        width: 90%;
     }
     .avail{
-        margin-top: 15px;
-        margin-bottom: 15px;
+        margin-top: 18px;
+        margin-bottom: 16px;
     }
     .avail img{
         width: 21px;
       height: 20px;
-      margin-bottom: 15px;
+      margin-bottom: 16px;
     }
     .intro-dist{
         font-size: 20px;
