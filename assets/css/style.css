@@ -326,6 +326,7 @@
     }
     .buton1{
         margin-bottom: 10px;
+		width: 60%;
     }
 }
 /*-----------------join-------*/
@@ -392,6 +393,7 @@
       }
         #inptext{
         margin-bottom: 10px;
+		width: 60%;
       }
       
   } 
