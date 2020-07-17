@@ -97,15 +97,15 @@
         font-size: 32px;
         line-height: 46px;
         width: 100%;
-        margin-bottom: 8px;
+        margin-bottom: 10px;
     }
     .intro-subtitle{
         font-size: 22px;
         line-height: 30px;
-        width: 100%;
+        width: 90%;
     }
     .avail{
-        margin-top: 10px;
+        margin-top: 12px;
         margin-bottom: 10px;
     }
     .avail img{
@@ -121,35 +121,35 @@
         margin-bottom: 8px;
     }
   }
-  /* @media (min-width:769px) and (max-width: 1024px) { */
-    /* .intro-text{ */
-        /* font-size: 32px; */
-        /* line-height: 46px; */
-        /* width: 90%; */
-        /* margin-bottom: 15px; */
-    /* } */
-    /* .intro-subtitle{ */
-        /* font-size: 22px; */
-        /* line-height: 30px; */
-        /* width: 60%; */
-    /* } */
-    /* .avail{ */
-        /* margin-top: 15px; */
-        /* margin-bottom: 15px; */
-    /* } */
-    /* .avail img{ */
-        /* width: 21px; */
-      /* height: 20px; */
-      /* margin-bottom: 15px; */
-    /* } */
-    /* .intro-dist{ */
-        /* font-size: 20px; */
-    /* } */
-    /* .inp{ */
-        /* width: 60%; */
-        /* margin-bottom: 8px; */
-    /* } */
-  /* } */
+  @media (min-width:769px) and (max-width: 1024px) {
+    .intro-text{
+        font-size: 32px;
+        line-height: 46px;
+        width: 90%;
+        margin-bottom: 15px;
+    }
+    .intro-subtitle{
+        font-size: 22px;
+        line-height: 30px;
+        width: 60%;
+    }
+    .avail{
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .avail img{
+        width: 21px;
+      height: 20px;
+      margin-bottom: 15px;
+    }
+    .intro-dist{
+        font-size: 20px;
+    }
+    .inp{
+        width: 60%;
+        margin-bottom: 8px;
+    }
+  }
 
 /*---------TEXTS-------------*/
 .text-list{
